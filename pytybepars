@@ -1,6 +1,6 @@
 from pytube import YouTube 
 
-link = 'https://www.youtube.com/watch?v=TwkNBJvaDyk&list=PLx40Tc4pO423OvwMLI7VNwXqoSOnWF_53&index=3'
+link = input()
 
 def download_video():
     yt = YouTube(link)
